@@ -1,5 +1,5 @@
 "# preentrega3-LaRosa" Java Script
-Hice una página con datos de resultados de análisis de sangre desde el 2018 hasta el 2023 con la finalidad de realizar un análisis comparativo para los estudios mas indicativos del estado de salud
+Hice una página con datos de resultados de análisis de sangre desde el 2018 hasta el 2024 con la finalidad de realizar un análisis comparativo para los estudios mas indicativos del estado de salud
 Para esta entrega se agregó:
 
 * Modificación de DOM, agregando mensajes dinámicos tanto para mensajes generales como para alertas sobre los resultados
