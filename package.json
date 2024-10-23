@@ -1,0 +1,14 @@
+{
+  "name": "preentrega2_la_rosa",
+  "version": "1.0.0",
+  "description": "Este proyecto contiene:\r Página con Bootstrap response: \r * index.html\r * agenda.html\r * afiliaciones.html",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

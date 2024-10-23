@@ -1,0 +1,32 @@
+
+.bg-image {
+    background-image: url('../assets/images/logoGigante.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: $color-black !important;
+    position: relative;
+    height: $height-body;
+    padding-top: 15%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: $witth-porcen;
+    height: $height-porcen;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.container {
+    position: relative;
+    z-index: 2;
+   }
+
+.container {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+

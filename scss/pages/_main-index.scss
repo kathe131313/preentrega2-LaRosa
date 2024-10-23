@@ -1,0 +1,18 @@
+
+.img-fluid {
+    height: $height-porcen - 35 !important;
+    border-radius: 60% !important;
+    padding: 2% 0% !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+
+}
+.shine-effect {
+    transition: all 0.3s ease-in-out;
+}
+.shine-effect:hover {
+    filter: brightness(1.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}

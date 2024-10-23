@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(230, 230, 230);
+}
+
+header {
+    height: 10vh;
+    background-color: rgb(230, 230, 230);
+}
+
+main {
+    height: 74vh;
+    background-color: #d4f5ee;
+    flex-grow: 1;
+
+}
+
+footer {
+    height: 16vh;
+    background-color: rgb(230, 230, 230);
+}
+
+/****************************************Personalización de los botones de la aplicación**************************************/
+.fs-1 {
+    color: #323131f3 !important;
+}
+.btn-primary {
+    background-color: #092943!important;
+
+    border-color: #092943 !important;
+
+    height: 85%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /* border-left: 20px;*/
+    width: 100% !important;
+    color: #FFDDC7 !important;
+
+}
+
+.btn-primary:hover {
+    background-color: #278671!important;
+    border-color: #278671!important;
+
+}
+
+/****************************************Todas las páginas que tienen imagenes redondas**************************************/
+.img-fluid {
+    height: 65% !important;
+    border-radius: 60% !important;
+    padding: 2% 0% !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/****************************************Estilos para el footer, igual para todas las páginas**************************************/
+.footer-end {
+    text-align: center !important;
+    padding: 5px !important;
+    background-color: #222 !important;
+    color: #ffffff !important;
+    width: 100% !important;
+    height: 50% !important;
+}
+
+.enlaces-rapidos {
+    list-style: none;
+    padding: 0;
+}
+
+.contactos {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.4);
+    
+}
+
+
+/**********************************************************estilo para el formulario de la página Contactos********************************/
+.contact-form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/*********************************************************Estilos de letra para todas las páginas************************************************************/
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center !important;
+    margin-bottom: 20px !important;
+}
+
+/******************************************************************Estilo para Login de Acceso al Socio*******************************************/
+.login-container {
+    display: grid;
+    gap: 15px;
+    width: 30vw;
+    height: 50vh;
+    max-width: 80%;
+    background-color: rgb(237, 245, 250);
+    border-radius: 18px;
+}
+
+#logo-chico {
+    text-align: center;
+}
+
+
+.form-group {
+    display: grid;
+    gap: 15px;
+}
+
+.form-grouplabel {
+    font-weight: bold;
+}
+
+.form-groupinput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#submit {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#submit:hover {
+    background-color: #406994;
+}
+
+.form-footer {
+    text-align: center;
+}
+
+.form-footera {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.form-footera:hover {
+    text-decoration: underline;
+}
+
+.login-form {
+    height: 80%;
+}
+
+/*********************************media query para screen chicas********************************************************************************/
+
+@media (max-width: 576px) {
+    .img-fluid {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-height: 25vh !important;
+        overflow-y: scroll;
+    }
+
+    .btn-primary {
+        height: 100%;
+        display: grid;
+        gap: 50px !important;
+        padding: 0%;
+    }
+
+    .form-select {
+
+        height: 80%;
+
+    }
+
+    .logo-secundario {
+        height: 80%;
+    }
+
+    /*******************************************Título principal de todas las páginas****************************************************************/
+    .fs-1 {
+        padding: 0 !important;
+    }
+
+    /*******************************************sub-titulo de todas las páginas no principal*********************************************************/
+    .fs-4 {
+        padding-top: 10% !important;
+        padding-bottom: 0% !important;
+
+    }
+
+    .col-12.col-sm-12.col-lg-3 {
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+        height: 80% !important;
+    }
+
+    .imag-oculta {
+        display: none !important;
+    }
+
+    .login-container {
+        width: 70%;
+        height: 50% !important;
+        padding-bottom: 1% !important;
+        padding: 0%;
+    }
+
+    /*****acceso al socio********/
+    #logo-chico {
+        padding: 0% !important;
+        margin: 0% !important;
+    }
+
+    .mb-3 {
+        margin: 0% !important;
+    }
+
+    /*****formulario afiliacion********/
+    .form-control {
+        height: 35% !important;
+        overflow-y: scroll !important;
+        padding-top: 0%;
+
+    }
+
+    .col-sm-12.col-md-12.col-lg-12 {
+        padding: 0% !important;
+
+    }
+
+    .form-control.policlinica {
+        height: 65% !important;
+        overflow-y: scroll !important;
+        padding-top: 0%;
+
+    }
+
+}
+
+/*************************estilo del mapa de la pag Policlínicas**********************************/
+.map-iframe {
+    width: 45wv;
+    height: 35px;
+    border: 0;
+
+}
+
+/********************************************************imagen de fondo para la pag Nosostros***************************************************/
+.bg-image {
+    background-image: url('../assets/images/logoGigante.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Para que la imagen se quede fija al hacer scroll */
+    color: #2d2c2c !important;
+    /* Asegúrate de que el texto sea legible sobre la imagen */
+    position: relative;
+    height: 100vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* Ajusta el color y la opacidad */
+    z-index: 1;
+}
+
+.container {
+    position: relative;
+    z-index: 2;
+    /* Asegúrate de que el contenido esté encima del overlay */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.7);
+    /* Fondo blanco semi-transparente */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+/************************************animation para la imagen de portada index*******************************************************/
+.shine-effect {
+    transition: all 0.3s ease-in-out;
+}
+
+.shine-effect:hover {
+    filter: brightness(1.2);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+/************************************animation para la imagen de portada index*******************************************************/

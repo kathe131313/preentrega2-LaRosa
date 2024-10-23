@@ -1,0 +1,87 @@
+@media (max-width: 576px) {
+    .img-fluid {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-height: 25vh !important;
+        overflow-y: scroll;
+    }
+
+    .btn-primary {
+        height: 100%;
+        display: grid;
+        gap: 50px !important;
+        padding: 0%;
+    }
+
+    .form-select {
+
+        height: 80%;
+
+    }
+
+    .logo-secundario {
+        height: 80%;
+    }
+
+    /*******************************************Título principal de todas las páginas****************************************************************/
+    .fs-1 {
+        padding: 0 !important;
+    }
+
+    /*******************************************sub-titulo de todas las páginas no principal*********************************************************/
+    .fs-4 {
+        padding-top: 10% !important;
+        padding-bottom: 0% !important;
+
+    }
+
+    .col-12.col-sm-12.col-lg-3 {
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+        height: 80% !important;
+    }
+
+    .imag-oculta {
+        display: none !important;
+    }
+
+    .login-container {
+        width: 70%;
+        height: 50% !important;
+        padding-bottom: 1% !important;
+        padding: 0%;
+    }
+
+    /*****acceso al socio********/
+    #logo-chico {
+        padding: 0% !important;
+        margin: 0% !important;
+    }
+
+    .mb-3 {
+        margin: 0% !important;
+    }
+
+    /*****formulario afiliacion********/
+    .form-control {
+        height: 35% !important;
+        overflow-y: scroll !important;
+        padding-top: 0%;
+
+    }
+
+    .col-sm-12.col-md-12.col-lg-12 {
+        padding: 0% !important;
+
+    }
+
+    .form-control.policlinica {
+        height: 65% !important;
+        overflow-y: scroll !important;
+        padding-top: 0%;
+
+    }
+    
+}

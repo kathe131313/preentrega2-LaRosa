@@ -1,0 +1,14 @@
+.btn-primary {
+    background-color: $color-buttom;
+    border-color: $color-buttom;
+    height: $height-porcen -15;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    color: $color-font-buttom;
+    width: $witth-porcen;
+}
+.btn-primary:hover {
+    background-color: $color-buttom-hover;
+    border-color: $color-buttom-hover;
+}
