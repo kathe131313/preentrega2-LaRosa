@@ -1,4 +1,4 @@
-# Preentrega2
+# Trabajo final
 Este proyecto contiene para ser evaluado por el profesor los siguientes puntos y archivos:
 
 * accesosocio.html(pant)
